@@ -1,0 +1,180 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing:border-box;
+    
+}
+
+body{
+    background-color: rgb(1, 0, 0);
+    color: white;
+}
+
+
+.mainhed{
+    font-size: 40px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+    text-align: center;
+    padding-bottom: 12px;
+    padding-top: 12px;
+    margin: 10px auto;
+    background: linear-gradient(90deg,rgba(163, 159, 24, 1) 6%, rgba(247, 242, 136, 1) 20%, rgba(252, 237, 18, 1) 42%, rgba(161, 20, 227, 1) 75%, rgba(58, 17, 79, 1) 100%);
+    background-clip: text;
+    color: transparent;
+    transition: 1.2s;
+}
+.mainhed:hover{
+    transform: scale(1.2);
+    
+}
+
+.navl{
+    text-decoration: none;
+    color: white;
+
+    
+
+    
+
+}
+
+.navt{
+    list-style: none;
+    display: inline;
+    padding-left:50px;
+    padding-right: 2px;
+    
+
+}
+#ul{
+    background-color: rgb(52, 52, 49);
+    border: 3px yellow solid;
+    border-radius: 45px;
+    text-align: center;
+    margin: 0px auto;
+    width: 700px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    padding-right: 0%;
+    padding-left: 0px;
+
+
+}
+
+#p1{
+    font-weight: 900;
+    font-size: medium;
+    text-align: center;
+    width: 250px;
+    margin: 2px auto;
+    border-left: 3px dotted yellow;
+    border-right: 3px dotted yellow;
+    margin-bottom: 25px;
+   
+   
+   
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+section,footer{
+    background-color: rgb(52, 52, 49);
+    border: 4px solid yellow;
+    
+    border-radius: 18px;
+    width: 83%;
+    margin: 0px auto 20px auto;
+    padding: 15px;
+    
+    padding-left: 25px;
+    transition: 1.2s;
+
+
+}
+section:hover,footer:hover{
+     box-shadow: 2px 8px 20px rgb(204, 204, 104);
+     background-color: rgb(4, 54, 2);
+     
+     transform: scale(1.1);
+     transition: 1.2s;
+
+    }
+
+
+
+.dt{
+    border: 3px solid white;
+    margin: 20px 10px 20px 10px;
+    width: 500px;
+    color: rgb(71, 75, 1);
+    background-color: rgb(224, 223, 221);
+    border-radius: 30px;
+    padding-left: 20px;
+    
+
+   
+}
+#dl{
+    display: inline; 
+    
+}
+#vi{
+    width: auto;
+    height: 700px;
+    margin: 0px;
+
+}
+.ht{
+    display: inline;
+}
+
+#video{
+    width: 100%;
+
+}
+
+#final{
+    width: 200px;
+    margin: 0px auto;
+    text-align: center;
+}
+#git{
+    text-decoration: none;
+    color: rgb(250, 248, 248);
+    margin: 20px;
+     width: 170px;
+
+
+}
+.iconn{
+    border-radius: 50%;
+    margin-right: 50px;
+
+
+}
+.title{
+     background: linear-gradient(90deg,rgb(195, 104, 183) 6%, rgb(237, 8, 161) 20%, rgba(252, 237, 18, 1) 42%, rgba(161, 20, 227, 1) 75%, rgba(58, 17, 79, 1) 100%);
+    background-clip: text;
+    color: transparent;
+
+}
+
+.contacticon{
+    height: 25px;
+}
+.contact{
+    padding-right: 120px;
+    text-decoration: none;
+    padding-left: 5px;
+    color: white;
+}
+#allcont{
+    width: 100%;
+}
+#gitref{
+    border: 3px solid yellow;
+    width: 170px;
+    padding: 5px;
+    margin: 10px;
+    background-color: rgb(142, 142, 135);
+    
+}
